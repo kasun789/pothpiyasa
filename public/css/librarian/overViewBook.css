@@ -1,0 +1,157 @@
+.overViewCon1{
+    position: absolute;
+    width: 1100px;
+    height: 645px;
+    left: 360px;
+    top: 110px;
+
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+.bookImageBookSearch{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 210px;
+    height: 250px;
+    box-shadow: 10px 10px lightgray;
+}
+
+.bookDetails{
+    position: absolute;
+    top: 75px;
+    left: 400px;
+}
+
+.heading{
+   
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    /* left: 723px;
+    top: 255px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #a29e9e;
+}
+
+.data{
+    
+    width: 422px;
+    height: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.bookDetails tr:nth-child(odd){
+    background-color: #cfe9f7;
+}
+.resiveredBookDiv{
+    position: absolute;
+    width: 660px;
+    height: 200px;
+    left: 220px;
+    top: 370px;
+
+    background: #DAD9E0;
+    border-radius: 35px;
+}
+.headingresivered{
+    position: absolute;
+    width: 404px;
+    height: 27px;
+    left: 100px;
+    top: -15px;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.reservedListHR{
+  position: relative;
+  top: 40px;
+  background-color: #2E9FED;
+  height: 5px;
+}
+.ReservedListTable{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.imageUser{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.UserName{
+    width: 150px;
+    height: 30px;
+    padding-left: 30px;
+
+    /* left: 723px;
+    top: 255px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: black;
+}
+.dateTime{
+    width: 250px;
+    height: 30px;
+    padding-left: 30px;
+
+    /* left: 723px;
+    top: 255px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: black;
+}
+.backbtn{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 482px;
+    top: 600px;
+    border: none;
+    color: white;
+    background: #5CCBD4;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center; 
+}
+.backbtn a{
+    text-decoration: none;
+    color: white;
+}

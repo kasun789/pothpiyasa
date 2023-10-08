@@ -1,0 +1,235 @@
+
+.popup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 32%;
+    left: 45%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+.locateButton1{
+    width: 25%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2E9FED;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.popup p{
+    font-size: 17px;
+    margin: 10px 0 10px
+}
+
+
+
+.popup button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2e9fed;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.delete1Popup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 25.8%;
+    left: 45%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+}
+
+.delete1Popup img{
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.delete1Popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.delete1Popup p{
+    font-size: 21px;
+    margin: 10px 0 10px
+}
+
+.popupEdit{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 20%;
+    left: 32%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ; 
+    
+}
+.popupEdit img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    scale: 1.01;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popupEdit h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.popupEdit p{
+    font-size: 17px;
+    margin: 10px 0 10px
+}
+
+.delete2Popup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 34.5%;
+    left: 46%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ; 
+    
+}
+
+.open_popup{
+    visibility: visible;
+    top: 32%;
+    scale: 1;
+}
+
+.delete2Popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.delete2Popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.delete2Popup p{
+    font-size: 22px;
+    margin: 10px 0 10px
+}
+
+
+
+.delete2Popup button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2)
+
+}
+
+
+/* .popupEdit button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2e9fed;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+} */
+
+.cancelButton{
+    display: inline-block;
+    width: 70%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2e9fed;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.deleteButton{
+    display: inline-block;
+    width: 70%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: rgb(247, 57, 57);
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

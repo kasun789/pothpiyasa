@@ -1,0 +1,1450 @@
+
+.bodyContainer01{
+    position: absolute;
+    width: 1200px;
+    height: 696px;
+    left: 306px;
+    top: 69px;
+
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+
+.backbtn{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 1000px;
+    top: 480px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.backbtn a{
+    text-decoration: none;
+    color: white;
+}
+.bodyContainer2{
+    position: absolute;
+    width: 1114px;
+    height: 625px;
+    left: 44px;
+    top: 40px;
+
+    background: #D9D9D9;
+    border-radius: 35px;
+    
+}
+
+.titalLabel{
+    position: absolute;
+    width: 49px;
+    height: 27px;
+    left: 70px;
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.tital{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 180px;
+    top: 50px;
+    outline: none;
+    border: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.tital:focus{
+   border:3px solid #2E9FED;
+   outline: 0;
+}
+.checktitalbtn{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 425px;
+    top: 45px;
+    border: 1px solid #2E9FED;
+    background: #2E9FED;
+    border-radius: 10px;
+}
+.checktitalbtn a{
+    text-decoration: none;
+    color: white;
+
+}
+.checkAuthor{
+    position: absolute;
+    width: 160px;
+    height: 33px;
+    left: 425px;
+    top: 125px;
+    border: 1px solid #2E9FED;
+    background: #2E9FED;
+    border-radius: 10px;   
+}
+.checkAuthor a{
+    text-decoration: none;
+    color: white;
+}
+.isbnLabel{
+    position: absolute;
+    width: 49px;
+    height: 27px;
+    left: 70px;
+    top: 90px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.isbn{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 180px;
+    top: 90px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.isbn:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+.checkisbnbtn{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 425px;
+    top: 85px;
+    border: 1px solid #2E9FED;
+    background: #2E9FED;
+    border-radius: 10px;
+}
+.checkisbnbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.authorsLabel{
+    position: absolute;
+    width: 49px;
+    height: 27px;
+    left: 70px;
+    top: 130px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.author{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 180px;
+    top: 130px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+
+}
+.author:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.editionLabel{
+    position: absolute;
+    width: 49px;
+    height: 27px;
+    left: 70px;
+    top: 170px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000; 
+}
+.edition{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 180px;
+    top: 170px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF; 
+}
+.edition:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.publisherLabel{
+    position: absolute;
+    width: 49px;
+    height: 27px;
+    left: 70px;
+    top: 210px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000; 
+}
+.publisher{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 180px;
+    top: 210px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF; 
+}
+.publisher:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+.yearLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 70px;
+    top: 250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000; 
+}
+.year{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 180px;
+    top: 250px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+.year:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.cateogoryLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 70px;
+    top: 290px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.category{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 180px;
+    top: 290px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+.category:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.defineNewCategorybtn{
+    position: absolute;
+    width: 160px;
+    height: 33px;
+    left: 425px;
+    top: 287px;
+    border: 1px solid #2E9FED;
+    background: #2E9FED;
+    border-radius: 10px;
+}
+.defineNewCategorybtn a{
+   text-decoration: none;
+   color: white;
+}
+/* .rackLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 70px;
+    top: 330px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+   
+/* }
+.rack{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 180px;
+    top: 330px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+.rack:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.defineNewRackbtn{
+    position: absolute;
+    width: 160px;
+    height: 33px;
+    left: 425px;
+    top: 327px;
+    border: 1px solid #2E9FED;
+    background: #2E9FED;
+    border-radius: 10px;
+}
+.defineNewRackbtn a{
+   text-decoration: none;
+   color: white;
+} */
+.conditionLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 70px;
+    top: 330px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+}
+.condition{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 180px;
+    top: 330px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+    
+}
+.condition:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.pagesLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 70px;
+    top: 367px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.pages{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 180px;
+    top: 368px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.pages:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.languagesLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 70px;
+    top: 404px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+} 
+.languages{
+    position: absolute;
+    width: 203px;
+    height: 25px;
+    left: 181px;
+    top: 407px;
+    border: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF; 
+}
+.languages:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.bookImageLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 69px;
+    top: 442px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;   
+}
+
+.receivedLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 68px;
+    top: 483px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;  
+}
+.receivedDate{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 181px;
+    top: 484px;
+    border: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.receivedDate:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+ .class{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 69px;
+    top: 529px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;  
+}
+.classinput{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 178px;
+    top: 528px;
+    border: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF; 
+}
+.classinput:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+ .locationLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 650px;
+    top: 91px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000; 
+ }
+ .location{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 780px;
+    top: 91px;
+    border: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF; 
+ }
+ .location:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.defineDonorVendorbtn{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 100px;
+    top: 150px;
+    border: 1px solid #2E9FED;
+    background: #2E9FED;
+    border-radius: 10px;
+    padding: 5px;
+}
+.defineDonorVendorbtn a{
+    text-decoration: none;
+    color: white;
+}
+.donorAddBook{
+    visibility: hidden;
+}
+.imagefile{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 179px;
+    top: 445px;
+    border: 1px solid white;
+   
+}
+
+.priceLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 651px;
+    top: 51px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;  
+}
+.price{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 781px;
+    top: 50px;
+    border: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF; 
+}
+.price:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+
+.vendorDonorLabel{
+    position: absolute;
+    width: 200px;
+    height: 27px;
+    left: 30px;
+    top: 70px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000; 
+}
+.vendorDonor{
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    left: 160px;
+    top: 70px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+.vendorDonor:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.vendorDonorNameLabel{
+    position: absolute;
+    width: 200px;
+    height: 27px;
+    left: 30px;
+    top: 80px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000; 
+}
+.vendorDonorName{
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    left: 205px;
+    top: 80px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;   
+}
+
+
+
+
+
+.container3{
+    position: absolute;
+    width: 340px;
+    height: 320px;
+    left: 650px;
+    top: 193px;
+
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+.nameLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;   
+}
+.name{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 150px;
+    top: 60px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+.name:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.addressLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.address{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 150px;
+    top: 100px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+.address:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.emailLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 140px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.email{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 150px;
+    top: 140px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+.email:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+.telephoneNoLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 180px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.telephoneNo{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 150px;
+    top: 180px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+.telephoneNo:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+.addbookbtn{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: -330px;
+    top: 379px;
+    color: white;
+    background: #49F546;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.errorMsg{
+    color: red;
+}
+
+
+
+
+.toggle-btn {
+    padding: 5px 33px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+  }
+
+
+
+.backbtnAddBook{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 0px;
+    top: 380px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.backbtnAddBook a{
+    text-decoration: none;
+    color: white;
+}
+  
+  #btn 
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 125px;
+    height: 40px;
+    background: #2e9fed;
+    border-radius: 35px;
+  }
+
+.button-box
+{
+    position: relative;
+    top: 0px;
+    left: 60px;
+}
+  
+#vendorbtn {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+  
+    color: white;
+    
+  }
+  #donorbtn {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+  
+    color: #000000;
+    
+  }
+
+  .errorTitleMesg{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 63px;
+    left: 206px;
+    font-weight: bold;
+  }
+  .errorISBNMesg{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 104px;
+    left: 206px;
+    font-weight: bold;
+  }
+  .errorAuthorMesg{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 142px;
+    left: 206px;
+    font-weight: bold;
+  }
+.errorEditionMesg{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 183px;
+    left: 207px;
+    font-weight: bold;
+  }
+.errorNoPagesMesg{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 381px;
+    left: 211px;
+    font-weight: bold;
+  }
+
+  .errorMesgImageEditBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 458px;
+    left: 204px;
+    font-weight: bold;
+  }
+
+.errorMesgPublishedYearEditBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 263px;
+    left: 204px;
+    font-weight: bold;
+}
+  .errorMesgImageEditBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 458px;
+    left: 204px;
+    font-weight: bold;
+  }
+  .errorMesgpriceAddBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 64px;
+    left: 805px;
+    font-weight: bold;
+  }
+.errorMesgPublisherEditBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 223px;
+    left: 187px;
+    font-weight: bold;
+}
+
+.errorMesgVendorNameAddBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 224px;
+    left: 205px;
+    font-weight: bold;
+}
+.errorMesgVendorTelAddBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 290px;
+    left: 162px;
+    font-weight: bold;
+}
+.errorMesgDonorNameAddBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 224px;
+    left: 205px;
+    font-weight: bold;
+}
+.errorMesgDonorTelAddBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 290px;
+    left: 162px;
+    font-weight: bold;
+}
+
+.errorMesgDonorEmailAddBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 290px;
+    left: 162px;
+    font-weight: bold;
+}
+.errorMesgDonorEmailAddBook{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 290px;
+    left: 162px;
+    font-weight: bold;
+}
+
+  .lendingCategoryLabel{
+    position: absolute;
+    width: 130px;
+    height: 27px;
+    left: 650px;
+    top: 130px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000; 
+}
+.lendingCategory{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 782px;
+    top: 132px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;   
+}
+
+/* vendor css */
+
+.vendorNameLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 142px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000; 
+    opacity: 0.5; 
+}
+.vendorName{
+    position: absolute;
+    width: 144px;
+    height: 25px;
+    left: 160px;
+    top: 141px;
+    border: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+    opacity: 0.5;
+}
+.vendorName:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+ .vendorEmailLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 186px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+    opacity: 0.5;  
+}
+.vendorEmail{
+    position: absolute;
+    width: 144px;
+    height: 25px;
+    left: 158px;
+    top: 185px;
+    border: none;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.vendorEmail:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+ .vendorAddressLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 228px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+    opacity: 0.5;  
+}
+.vendorAddress{
+    position: absolute;
+    width: 144px;
+    height: 25px;
+    left: 159px;
+    top: 229px;
+    border: none;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.vendorAddress:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+  
+ .vendorTelLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 272px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+    opacity: 0.5;  
+}
+.vendorTel{
+    position: absolute;
+    width: 144px;
+    height: 25px;
+    left: 159px;
+    top: 272px;
+    border: none;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.vendorTel:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+ .vendorPriceLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 650px;
+    top: 85px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+    opacity: 0.5;
+
+    color: #000000;  
+}
+.vendorPrice{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 780px;
+    top: 85px;
+    border: none;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.vendorPrice:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+ .VendorDefineBtn{
+    position: absolute;
+    top: 103px;
+    left: 187px;
+    padding: 5px;
+    color: white;
+    background: #2E9FED;
+    outline: none;
+    
+ }
+
+ /* donor css */
+
+
+
+ .DonorNameLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 142px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+    opacity: 0.5;
+
+    color: #000000; 
+}
+.DonorName{
+    position: absolute;
+    width: 144px;
+    height: 25px;
+    left: 160px;
+    top: 141px;
+    border: none;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.DonorName:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+ .DonorEmailLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 186px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    opacity: 0.5;
+    /* identical to box height */
+
+
+    color: #000000;  
+ 
+}
+.DonorEmail{
+    position: absolute;
+    width: 144px;
+    height: 25px;
+    left: 158px;
+    top: 185px;
+    border: none;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.DonorEmail:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+ .DonorAddressLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 228px;
+    opacity: 0.5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;   
+}
+.DonorAddress{
+    position: absolute;
+    width: 144px;
+    height: 25px;
+    left: 159px;
+    top: 229px;
+    border: none;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.DonorAddress:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+ .DonorTelLable{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 30px;
+    top: 272px;
+    opacity: 0.5;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;  
+}
+.DonorTel{
+    position: absolute;
+    width: 144px;
+    height: 25px;
+    left: 159px;
+    top: 272px;
+    border: none;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.DonorTel:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+ }
+
+
+
+ .DonorDefineBtn{
+    position: absolute;
+    top: 103px;
+    left: 187px;
+    padding: 5px;
+    color: white;
+    background: #2E9FED;
+    outline: none;
+ }
+
+
+ /* something went wrong error */
+ .containerWarning{
+    position: absolute;
+    top: -7px;
+    left: 877px;
+    width: 318px;
+    height: 50px;
+    background: #ffdddd;
+    color: black;
+    font-weight: 100;
+    border-left: 6px solid #f44336;
+    text-align: center;
+    animation-name: warning;
+    animation-duration: 0.5s;
+}
+.warnningMsg{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    
+}
+span{
+    color: red;
+    font-weight: 800;
+    
+}
+#exclamationMark{
+    color: red;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+    
+}
+@keyframes warning {
+    0%{
+        display: none;
+        left: 1000px;
+        opacity: 1;
+    }
+    100%{
+        left: 300px;
+        opacity: 1;
+    }
+}

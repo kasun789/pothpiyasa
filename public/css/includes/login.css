@@ -1,0 +1,521 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  position: absolute;
+  display: block;
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+
+/* Header */
+
+.header_bar {
+  position: absolute;
+  top: 0px;
+  width: 1530px;
+  padding: 2px;
+  height: 90px;
+  /* border-radius: 35px; */
+}
+
+.system_logo {
+  position: absolute;
+  width: 354px;
+  height: 111px;
+  left: 0px;
+  top: 6px;
+}
+.logo {
+  position: absolute;
+  width: 154px;
+  height: 94px;
+  left: 1px;
+  top: -11px;
+}
+
+.logo_text {
+  position: absolute;
+  width: 219px;
+  height: 39px;
+  left: 114px;
+  top: 25px;
+}
+
+.opac_button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 1315px;
+  top: 17px;
+  background: #1c98ed;
+  border-radius: 35px;
+  transition: 1s;
+  scale: 0.78;
+
+}
+
+.opac_button:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.book_logo {
+  box-sizing: border-box;
+  position: absolute;
+  left: 15%;
+  right: 10.97%;
+  top: 25%;
+  bottom: 93.46%;
+}
+
+.opac_text {
+  position: absolute;
+  width: 119px;
+  height: 35px;
+  top: 22%;
+  right: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.opac_text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Main-Content */
+.library_png {
+  top: 4px;
+  left: 150px;
+  width: 740px;
+  height: 748px;
+}
+
+.library_avatar_png{
+  top: 0px;
+  left: 160px;
+  width: 130px;
+  height: 130px;
+}
+
+.login {
+  position: absolute;
+  padding: 30px;
+  top: 357px;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  width: 396px;
+  height: 430px;
+  background: #F5F5F5;
+  border-radius: 35px;
+}
+
+/* .login_form{
+  position: absolute;
+  top: 170px;
+  left: 20px;
+} */
+
+.login h1 {
+  color: #1395ed;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 40px;
+  text-align: center;
+  padding: 70px 0 10px 0;
+}
+
+form .txt_field {
+  position: relative;
+  border-bottom: 2px solid #767676;
+  margin: 30px 0;
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 0 8px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.txt_field input:focus{
+  outline: none;
+  background: none;
+}
+
+.txt_field label {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  color: #767676;
+  transform: translateY(-50%);
+  font-size: 20px;
+  font-weight: 540;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.txt_field span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #767676;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+  top: -5px;
+  color: #1395ed;
+}
+
+form a {
+  position: relative;
+  margin-left: 275px;
+  margin-bottom: 20px;
+  bottom: 26px;
+  font-size: 16px;
+  font-weight: 540;
+  color: #767676;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+form a:hover {
+  text-decoration: underline;
+  color: #1395ed;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  background: #1395ed;
+  border-radius: 35px;
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+p.error {
+  font-size: 17.6px;
+  text-align: center;
+  padding: 8px;
+  color: rgb(108, 24, 24);
+  background: rgb(246, 138, 138);
+}
+
+/* Footer */
+
+.footer_bar {
+  position: absolute;
+  top: 693px;
+  width: 1530px;
+  height:60px;
+  background: #1395ed;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 14px;
+  color: white;
+  font-weight: 540;
+}
+
+/* kasun */
+/* forget password css */
+
+.forgetPasswordCon1{
+  position: absolute;
+  text-align: center;
+  top: 252px;
+  left: 1045px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  border-radius: 25px;
+  width: 380px;
+  height: 235px;
+  box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+
+
+
+}
+.forgetPasswordCon1 h2{
+  position: absolute;
+  top: 11px;
+  left: 103px;
+  color: #1c98ed;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+    /* font-size: 16px; */
+  line-height: 24px;
+  text-align: center;
+
+}
+.forgetPasswordCon1 label{
+  position: absolute;
+  top: 146px;
+  left: 96px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  /* z-index: 100; */
+  color: lightgray;
+  pointer-events: none;
+  transition: 0.3s;
+}
+.forgetPasswordCon1 input{
+  position: absolute;
+  top: 86px;
+  left: 90px;
+  /* width: 100%; */
+  background: transparent;
+  padding: 0 8px;
+  height: 32px;
+  font-size: 17px;
+  border: 1px solid #1c98ed;
+  outline: none;
+  box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+
+}
+/* .forgetPasswordCon1 input:focus{
+  border: 2px solid red;
+} */
+
+.forgetPasswordCon1 input:focus {
+  border: 2px solid #1c98ed;
+}
+.forgetPasswordCon1 button{
+  position: absolute;
+  top: 160px;
+  left: 90px;
+  background: #1c98ed;
+  border-radius: 35px;
+  color: white;
+  width: 200px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+}
+ .errors{
+  position: absolute;
+  top: 319px;
+  left: 1108px;
+  background: #fee0df;
+  color: white;
+  padding: 5px;
+  color: red;
+
+}
+/* .mainCon{
+  filter: blur(1px);
+} */
+
+/* forget password section 2 */
+.forgetPasswordCon2{
+  position: absolute;
+  top: 235px;
+  left: 1045px;
+  box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+  background-color: white;
+  border-radius: 25px;
+  width: 380px;
+  height: 282px;
+
+}
+.forgetPasswordCon2 h2{
+  position: absolute;
+  top: 1px;
+  left: 92px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+    /* font-size: 16px; */
+  line-height: 24px;
+  text-align: center;
+  color: #1c98ed;
+
+}
+.forgetPasswordCon2 label{
+  position: absolute;
+  top: 67px;
+  left: 0px;
+  font-size: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+    /* font-size: 16px; */
+  line-height: 24px;
+  text-align: center;
+  background: #e7f7e8;
+  color: #05d216;
+  padding: 2px;
+}
+.forgetPasswordCon2 input{
+  position: absolute;
+  top: 140px;
+  left: 75px;
+  /* width: 100%; */
+  padding: 0 8px;
+  height: 32px;
+  font-size: 18px;
+  width: 200px;
+  /* border: none;
+  background: none;
+  outline: none; */
+  border: 1px solid #1c98ed;
+  outline: none;
+
+}
+
+.forgetPasswordCon2 input:focus {
+  border: 2px solid #1c98ed;
+}
+.forgetPasswordCon2 button{
+  position: absolute;
+  top: 201px;
+  left: 83px;
+  background: #1c98ed;
+  border-radius: 35px;
+  color: white;
+  width: 200px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+}
+ .errorsSection2{
+  position: absolute;
+  top: 369px;
+  left: 1117px;
+  background: #fee0df;
+  color: white;
+  padding: 5px;
+  color: red;
+
+}
+
+/* forget password section 3 */
+.forgetPasswordCon3{
+  position: absolute;
+  top: 235px;
+  left: 1045px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+  background-color: white;
+  border-radius: 25px;
+  width: 380px;
+  height: 282px;
+  box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+
+}
+.forgetPasswordCon3 h2{
+  position: absolute;
+  top: 1px;
+  left: 108px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+    /* font-size: 16px; */
+  line-height: 24px;
+  text-align: center;
+  color: #1c98ed;
+
+}
+.forgetPasswordCon3 input:focus {
+  border: 2px solid #1c98ed;
+}
+.forgetPasswordCon3 .newPasswordInput2{
+  position: absolute;
+  top: 76px;
+  left: 75px;
+  /* width: 100%; */
+  padding: 0 8px;
+  height: 32px;
+  font-size: 18px;
+  width: 200px;
+  /* border: none;
+  background: none;
+  outline: none; */
+  border: 1px solid #1c98ed;
+  outline: none;
+}
+
+.forgetPasswordCon3 .conformPasswordInput2{
+  position: absolute;
+  top: 140px;
+  left: 75px;
+  /* width: 100%; */
+  padding: 0 8px;
+  height: 32px;
+  font-size: 18px;
+  width: 200px;
+  /* border: none;
+  background: none;
+  outline: none; */
+  border: 1px solid #1c98ed;
+  outline: none;
+}
+.forgetPasswordCon3 button{
+  position: absolute;
+  top: 201px;
+  left: 83px;
+  background: #1c98ed;
+  border-radius: 35px;
+  color: white;
+  width: 200px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.errorsSection3{
+  position: absolute;
+  top: 300px;
+  left: 1117px;
+  background: #fee0df;
+  color: white;
+  padding: 5px;
+  color: red;
+}

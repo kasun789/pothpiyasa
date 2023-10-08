@@ -1,0 +1,374 @@
+
+/* form container */
+
+
+
+.bodyContainer01{
+    position: absolute;
+    width: 1200px;
+    height: 580px;
+    left: 306px;
+    top: 104px;
+
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+
+.backbtn_view{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 1300px;
+    top: 625px;
+    border: 1px solid #5ccbd4;
+    background: #5ccbd4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.backbtn_view a{
+    text-decoration: none;
+    color: white;
+}
+
+.imageProfile{
+    position: absolute;
+    width: 226px;
+    height: 211px;
+    left: 80px;
+    top: 15px;
+    border-radius: 50%;
+
+
+}
+
+.moreInfo{
+    position: absolute;
+    width: 320px;
+    height: 34px;
+    left: 45px;
+    top: 255px;
+    text-align: center;
+    justify-content: center;
+
+
+    background: #DAD9E0;
+}
+.more{
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+    top: 5px;
+    font-size: 20px;
+    
+
+}
+
+.id{
+    position: absolute;
+width: 114px;
+height: 39px;
+left: 45px;
+top: 310px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #7d7b7b;
+
+}
+
+.idView{
+    position: absolute;
+width: 237px;
+height: 39px;
+left: 155px;
+top: 310px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+}
+.name{
+    position: absolute;
+width: 114px;
+height: 39px;
+left: 45px;
+top: 350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #7d7b7b;
+
+}
+
+.nameView{
+    position: absolute;
+width: 237px;
+height: 39px;
+left: 155px;
+top: 350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+}
+.sex{
+    position: absolute;
+width: 114px;
+height: 39px;
+left: 45px;
+top: 390px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #7d7b7b;
+
+}
+
+.sexView{
+    position: absolute;
+width: 237px;
+height: 39px;
+left: 155px;
+top: 390px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+}
+
+.email{
+    position: absolute;
+width: 114px;
+height: 39px;
+left: 45px;
+top: 430px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #7d7b7b;
+
+}
+
+.emailView{
+    position: absolute;
+width: 237px;
+height: 39px;
+left: 155px;
+top: 430px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+}
+.staffId{
+    position: absolute;
+width: 114px;
+height: 39px;
+left: 45px;
+top: 470px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #7d7b7b;
+
+}
+
+.staffidView{
+    position: absolute;
+width: 237px;
+height: 39px;
+left: 155px;
+top: 470px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+}
+.date{
+    position: absolute;
+width: 114px;
+height: 39px;
+left: 45px;
+top: 490px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #7d7b7b;
+
+}
+
+.dateView{
+    position: absolute;
+width: 237px;
+height: 39px;
+left: 155px;
+top: 490px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+}
+
+.books{
+    position: absolute;
+    width: 650px;
+    height: 34px;
+    left: 475px;
+    top: 30px;
+    text-align: center;
+    justify-content: center;
+
+
+    background: #DAD9E0;
+}
+.booksTitle{
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+    top: 5px;
+    font-size: 20px;
+    
+
+}
+
+.container2{
+
+    position: absolute;
+    width: 760px;
+    height: 430px;
+    top: 85px;
+    left: 450px;
+   
+
+}
+
+
+
+.book_image{
+    /* position: absolute; */
+    position: relative;
+
+    padding: 10px; 
+    height:150px; 
+    width: 100px;
+    
+
+} 
+
+.book_title{
+    position: relative;
+    /* //padding: 10px;  */
+    top: 3px;
+    left: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+
+    color: black;
+
+}
+
+.author_table {
+    position: absolute;
+    top: -30px;
+    left: 2%;
+    padding: 6px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 30px;
+  }
+  
+  
+  .author_table td {
+    font-size: 15px;
+    padding: 10px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+
+  
+  .author_table tr:nth-child(even) {
+    background: #D9D9D9;
+  }
+  
+  .author_table td:hover {
+    background: #7493bc;
+    color: white;
+  }
+
+  .book_title:hover {
+    background: #7493bc;
+    color: white;
+  }
+
+
+  .nofound{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    font-size: 20px;
+    font-family: "Inter";
+  }

@@ -1,0 +1,121 @@
+.report_container {
+    position: absolute;
+    width: 1100px;
+    height: 480px;
+    left: 360px;
+    top: 130px;
+
+    background: #ffffff;
+    border-radius: 35px;
+
+}
+
+.report {
+    position: absolute;
+    width: 940px;
+    height: 418px;
+    left: 90px;
+    top: 20px;
+}
+
+.report a{
+    text-decoration: none;
+}
+
+.outside_box {
+    display: inline-block;
+
+    width: 230px;
+    height: 60px;
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    padding-left: 0px;
+    padding-top: 5px;
+
+    margin: 40px 36px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    transition: 1s;
+
+    box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+
+}
+
+.outside_box:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.report h3{
+    color: white;
+    text-align: center;
+    background: #1395ED;
+    padding: 7px;
+    width: 205px;
+
+    font-size: 20px;
+
+    /* border-radius: 18px; */
+    box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+
+}
+
+
+.main_reportbackbtn{
+
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    top: 474px;
+    left: 720px;
+    border: 1px solid #4ccad5;
+    background: #4ccad5;
+    border-radius: 35px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.main_reportbackbtn a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .dv_button1{
+    position: absolute;
+    scale: 0.8;
+    left: 200px;
+    top: 348px;
+
+    visibility: hidden;
+    transform: translate(57%,-136%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+
+  }
+
+  .dv_button1_popup{
+    visibility: visible;
+    transform: translate(-6%,10%) scale(1);
+  }
+
+  .dv_button2{
+    position: absolute;
+    scale: 0.8;
+    top: 348px;
+    left: 400px;
+
+    visibility: hidden;
+    transform: translate(-50%,-127%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+
+  }
+
+  .dv_button2_popup{
+    visibility: visible;
+    transform: translate(10%,10%) scale(1);
+  }

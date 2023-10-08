@@ -1,0 +1,352 @@
+.logevents_container_view {
+    position: absolute;
+    width: 1100px;
+    height: 550px;
+    left: 360px;
+    top: 144px;
+
+    background: #ffffff;
+    border-radius: 35px;
+    
+  }
+  
+  .from_date_label{
+    position: absolute;
+    left: 385px;
+    top: 95px;
+
+  }
+
+  .from_date{
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    left: 435px;
+    top: 85px;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    text-align: center;
+    box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+  }
+  
+  .from_date:focus {
+    border: 3px solid #2e9fed;
+    outline: 0;
+   }
+
+   .to_date_label{
+    position: absolute;
+    left: 590px;
+    top: 95px;
+
+  }
+
+  .to_date{
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    left: 620px;
+    top: 85px;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    text-align: center;
+    box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+  }
+  
+  .to_date:focus {
+    border: 3px solid #2e9fed;
+    outline: 0;
+   }
+  
+  .filter_search_btn1{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 798px;
+    top: 85px;
+    color: white;
+    background: #1395ed;
+    border-radius: 35px;
+    cursor: pointer;
+    border: none;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .logevents_filter_typo{
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    left: 988px;
+    top: 85px;
+    border: none;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px 0 0 0;
+    box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+  }
+  
+  .logevents_filter_typo:focus {
+    border: 3px solid #2e9fed;
+    outline: 0;
+  }
+  
+  .logevents_filter_typo_input{
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    left: 1130px;
+    top: 85px;
+    padding-left: 2px;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 0 0 20px 0;
+    box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+  
+  }
+  
+  .logevents_filter_typo_input:focus {
+    border: 3px solid #2e9fed;
+    outline: 0;
+  }
+  
+  .logevents_filter_search_btn2{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 1320px;
+    top: 85px;
+    color: white;
+    background: #1395ed;
+    border-radius: 35px;
+    cursor: pointer;
+    border: none;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  
+  .logevents_table {  
+    display: block;
+    max-height: 458px;
+    max-width: 1100px;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+    margin-top: 30px;
+
+    padding-left: 20px;
+
+  
+  }
+  
+  .logevents_table th {
+    border-bottom: 1px solid #1395ed;
+    padding: 12px 55px;
+    letter-spacing: 0.8px;
+    background-color: #1395ed;
+    color: white;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .logevents_table td {
+
+    padding: 12px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .logevents_table tr:nth-child(even) {
+    background: #D9D9D9;
+  }
+  
+  .logevents_table tr:hover {
+    background: #7493bc;
+    color: white;
+  }
+
+  .backBookViewbtn {
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 1000px;
+    top: 565px;
+    border: 1px solid #4ccad5;
+    background: #4ccad5;
+    border-radius: 35px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .backBookViewbtn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* pagination styles  */
+
+.pagination_container_eventlog{
+
+  position: absolute;
+  left: -152px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  color: #666666;
+  padding: 10px 40px;
+  border-radius: 6px;
+  width: 740px;
+  height: 100px;
+
+  scale: 0.75;
+  top: 473px;
+
+}
+
+.pagination_container_eventlog_hide{
+  visibility: hidden;
+}
+
+
+.pagination_container_eventlog ul li{
+  display: inline-block;
+  padding-left: 30px ;
+  /* margin: 0 20px;
+  width: 45px;
+  height: 45px; */
+  /* border-radius: 50%; */
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  cursor: pointer;
+
+  color: #666666;
+
+
+}
+
+ul li.active_pag{
+  color: white;
+  background-color: #1395ed;
+  background-repeat: no-repeat;
+}
+
+.pagination_container_eventlog ul li a{
+  text-decoration: none;
+  color: #666666;
+
+
+}
+
+.pagination_container_eventlog ul li a:hover{
+  color:#1395ed;
+
+}
+
+
+.go_to_page_eventlog{
+  position: absolute;
+  top: 497px;
+  color: #666666;
+  left: 850px;
+
+}
+.go_to_page_eventlog_hide{
+  visibility: hidden;
+}
+
+.go_to_page_eventlog label{
+  position: relative;
+
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #666666;
+  top: 0.9px;
+
+}
+
+.go_to_page_eventlog input{
+  position: relative;
+  width: 30px;
+  height: 25px;
+  color: #666666;
+  text-align: center;
+  border: 3px solid #2e9fed;
+  left: 1px;
+
+  
+}
+
+.go_to_page_eventlog button{
+  position: relative;
+  outline: none;
+  border: none;
+  background: transparent;
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 45px;
+  cursor: pointer;
+  color: #666666;
+
+  top: 2.5px;
+  left: 5px;
+}
+
+.go_to_page_eventlog button i{
+  position: relative;
+  top: 1.2px;
+  color: #666666;
+
+}
+
+.go_to_page_eventlog input:focus {
+  border: 3px solid #2e9fed;
+  outline: 0;
+}
+
+.go_to_page_eventlog button a{
+  text-decoration: none;
+  color: #666666;
+
+}
+
+.go_to_page_eventlog button:hover{
+  color: #2e9fed;
+
+}
+  

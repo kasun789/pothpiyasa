@@ -1,0 +1,160 @@
+
+.bodyContainer01{
+    position: absolute;
+    width: 1200px;
+    height: 580px;
+    left: 306px;
+    top: 104px;
+  
+    background: #FFFFFF;
+    border-radius: 35px;
+  }
+  
+  .backbtn{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 660px;
+    top: 370px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .backbtn a{
+    text-decoration: none;
+    color: white;
+  }
+  .bodyContainer02{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 202px;
+    top: 90px;
+  
+    background: #D9D9D9;
+    border-radius: 35px;
+  }
+  
+  .noOfBooksLabel{
+    position: absolute;
+    width: 104px;
+    height: 27px;
+    left: 205px;
+    top: 168px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+  
+  
+    color: #000000;
+  }
+  
+  
+  .BookcategoryLabel{
+    position: absolute;
+    width: 104px;
+    height: 27px;
+    left: 205px;
+    top: 98px;
+
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+  
+  
+    color: #000000;
+  }
+
+  .errorbookcategory1 { 
+    position: absolute;
+    font-size: 12px;
+    width: 203px;
+    left: 353px;
+    top: 113px;
+    padding: 5px;
+    color: red;
+    
+    
+  }
+  .bookcategory1{
+    position: absolute;
+    width: 205px;
+    height: 25px;
+    left: 355px;
+    top: 98px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+  
+  }
+  .bookcategory1:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+  }
+
+
+
+  .errorNoofBooks1 { 
+    position: absolute;
+    font-size: 12px;
+    width: 203px;
+    left: 355px;
+    top: 186px;
+    padding: 5px;
+    color: red;
+    
+    
+  }
+
+  .noOfBooks1{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 355px;
+    top: 168px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+  }
+  .noOfBooks1:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+  }
+
+
+  .addrackbtn{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 260px;
+    top: 279px;
+    color: white;
+    background: #49F546;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  
+ 

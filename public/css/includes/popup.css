@@ -1,0 +1,994 @@
+
+.popup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 32%;
+    left: 45%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.popup p{
+    font-size: 17px;
+    margin: 10px 0 10px
+}
+
+
+
+.popup button{
+    width: 25%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2e9fed;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.locatePopup{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 32%;
+  left: 45%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s ;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.locate img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.locate h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.locate p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+
+
+.locate button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2e9fed;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.popupView {
+  position: fixed;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 32%;
+  left: 45%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: visible;
+  transition: transform 0.4s, top 0.4s ;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.popupView img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.poppopupViewup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.popupView p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+
+
+.popupView button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2e9fed;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.delete1Popup{
+  position: fixed;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 305px;
+  left: 673px;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+}
+
+.delete1Popup img{
+    width: 110px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.delete1Popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.delete1Popup p{
+    font-size: 21px;
+    margin: 10px 0 10px
+}
+
+/* user view delete popup */
+
+.delete1PopupView{
+    position: fixed;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 224px;
+    left: 705px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: visible;
+}
+
+.delete1PopupView img{
+  width: 110px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.delete1PopupView h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.delete1PopupView p{
+  font-size: 21px;
+  margin: 10px 0 10px
+}
+
+.popupEdit{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 23%;
+    left: 32%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ; 
+    
+}
+.popupEdit img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    scale: 1.01;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popupEdit h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.popupEdit p{
+    font-size: 17px;
+    margin: 10px 0 10px
+}
+
+
+.popupEditView{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 33%;
+  left: 43%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: visible;
+  transition: transform 0.4s, top 0.4s ; 
+  
+}
+.popupEditView img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  scale: 1.01;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popupEditView h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.popupEditView p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+.popupEditView button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2e9fed;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.delete2Popup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 30%;
+    left: 31%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ; 
+    
+}
+
+.open_popup{
+    visibility: visible;
+    top: 32%;
+    scale: 1;
+}
+
+.delete2Popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.delete2Popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.delete2Popup p{
+    font-size: 22px;
+    margin: 10px 0 10px
+}
+
+
+
+.delete2Popup button{
+    width: 25%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2e9fed;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2)
+
+}
+
+
+.delete2PopupView{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 30%;
+  left: 45%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: visible;
+  transition: transform 0.4s, top 0.4s;
+  
+}
+
+.open_popup{
+  visibility: visible;
+  top: 32%;
+  scale: 1;
+}
+
+.delete2PopupView img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.delete2PopupView h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.delete2PopupView p{
+  font-size: 22px;
+  margin: 10px 0 10px
+}
+
+
+
+.delete2PopupView button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2e9fed;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2)
+
+}
+
+
+.popupEdit button{
+    width: 25%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2e9fed;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.cancelButton{
+    display: inline-block;
+    width: 70%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2e9fed;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.deleteButton{
+    display: inline-block;
+    width: 70%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: rgb(247, 57, 57);
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+  /* sendMail successfull msg popup */
+  .sendMail_sucess_locatePopup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 250px;
+    left: 670px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    box-shadow: 0 0 20px rgba(111,214,73,0.2);
+    backdrop-filter: blur(5px);
+  }
+
+  .baground_filter{
+    filter: blur(5px);
+  }
+
+  .sendMail_sucess_locatePopup_visible{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 250px;
+    left: 670px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: visible;
+    box-shadow: 0 0 20px rgba(111,214,73,0.2);
+    backdrop-filter: blur(5px);
+    
+  }
+  
+  .sendMail_sucess_locatePopup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sendMail_sucess_locatePopup h2{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 10px 0 10px
+  }
+  
+  .sendMail_sucess_locatePopup p{
+    font-size: 17px;
+    margin: 10px 0 10px
+  }
+  
+  
+  
+  .sendMail_sucess_locatePopup button{
+      width: 25%;
+      margin-top: 20px;
+      padding: 10px 0;
+      background: #2E9FED;
+      color: white;
+      border: 0;
+      outline: none;
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  
+  }
+
+    /* book copy popup */
+
+.book_copy_Popup{
+    position: absolute;
+    width: 380px;
+    height: 180px;
+    background: white;
+    border-radius: 10px;
+    top: 7px;
+    left: 115px;
+    text-align: center;
+    padding: 0 50px 50px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    box-shadow: 0 0 20px rgba(46, 159, 237,0.2);
+    z-index: 1000;
+}
+
+.book_copy_Popup img{
+  width: 100px;
+  margin-top: -50px;
+  position: absolute;
+  top: -8px;
+  left: 188px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book_copy_Popup h2{
+  font-size: 25px;
+  font-weight: 800;
+  margin: 73px 0 10px
+}
+
+.book_copy_Button{
+  width: 25%;
+  margin-top: 34px;
+  padding: 10px 0;
+  background: #2E9FED;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.book_copy_Button a{
+  text-decoration: none;
+  color: white;
+}
+.bookCopyCancelButton{
+  width: 25%;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 10px 0;
+  background: #5CCBD4;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book_copy_Popup_view{
+  position: absolute;
+  width: 380px;
+  height: 180px;
+  background: white;
+  border-radius: 10px;
+  top: 236px;
+  left: 665px;
+  text-align: center;
+  padding: 0 50px 50px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: visible;
+  box-shadow: 0 0 20px rgba(46, 159, 237,0.2);
+  z-index: 1000;
+}
+
+.book_copy_Popup_view img{
+width: 100px;
+margin-top: -50px;
+position: absolute;
+top: -8px;
+left: 188px;
+border-radius: 50%;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book_copy_Popup_view h2{
+font-size: 25px;
+font-weight: 800;
+margin: 73px 0 10px
+}
+
+.book_copy_Button{
+width: 25%;
+margin-top: 34px;
+padding: 10px 0;
+background: #2E9FED;
+color: white;
+border: 0;
+outline: none;
+font-size: 15px;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.book_copy_Button a{
+text-decoration: none;
+color: white;
+}
+.bookCopyCancelButton{
+width: 25%;
+margin-top: 20px;
+margin-left: 40px;
+padding: 10px 0;
+background: #5CCBD4;
+color: white;
+border: 0;
+outline: none;
+font-size: 15px;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* book copy popup add */
+.bookCopypopup{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 32%;
+  left: 45%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s ;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.bookCopypopupView{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 32%;
+  left: 45%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: visible;
+  transition: transform 0.4s, top 0.4s ;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.bookCopypopup img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bookCopypopup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.bookCopypopup p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+
+
+.bookCopypopup button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2E9FED;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+.bookCopypopupView img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bookCopypopupView h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.bookCopypopupView p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+
+
+.bookCopypopupView button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2E9FED;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+/* return book css */
+
+.container_popup_return_book{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 32%;
+  left: 45%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s ;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.container_popup_return_book_view{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 32%;
+  left: 45%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: visible;
+  transition: transform 0.4s, top 0.4s ;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.container_popup_return_book img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container_popup_return_book h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.container_popup_return_book p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+
+
+.container_popup_return_book button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2E9FED;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+.container_popup_return_book_view img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container_popup_return_book_view h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.container_popup_return_book_view p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+
+
+.container_popup_return_book_view button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2E9FED;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* issue book css */
+
+.renew_sucess_issue_Popup{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 32%;
+  left: 45%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s ;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.renew_sucess_issue_Popup_view{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 32%;
+  left: 45%;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: visible;
+  transition: transform 0.4s, top 0.4s ;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.renew_sucess_issue_Popup img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.renew_sucess_issue_Popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.renew_sucess_issue_Popup p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+
+
+.renew_sucess_issue_Popup button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2E9FED;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+.renew_sucess_issue_Popup_view img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.renew_sucess_issue_Popup_view h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.renew_sucess_issue_Popup_view p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+
+
+.renew_sucess_issue_Popup_view button{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2E9FED;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}

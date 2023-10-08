@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  img {
+    position: absolute;
+    display: block;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+  }
+  
+  /* Header */
+  
+  .header_bar {
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 18px;
+    width: 1500px;
+    height: 90px;
+    background: #eaf3fa;
+    border-radius: 35px;
+  }
+  
+  .system_logo {
+    position: absolute;
+    width: 354px;
+    height: 111px;
+    left: 1px;
+    top: 5px;
+  }
+  .logo {
+    position: absolute;
+    width: 154px;
+    height: 94px;
+    left: 1px;
+    top: -11px;
+  }
+  
+  .logo_text {
+    position: absolute;
+    width: 219px;
+    height: 39px;
+    left: 115px;
+    top: 25px;
+  }
+  
+  .opac_button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 1260px;
+    top: 15px;
+    background: #1c98ed;
+    border-radius: 35px;
+  }
+  
+  .book_logo {
+    box-sizing: border-box;
+    position: absolute;
+    left: 15%;
+    right: 10.97%;
+    top: 25%;
+    bottom: 93.46%;
+  }
+  
+  .opac_text {
+    position: absolute;
+    width: 119px;
+    height: 35px;
+    top: 22%;
+    right: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .opac_text:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  /* Main-Content */
+  .library_png {
+    top: 95px;
+    left: 65px;
+    width: 845px;
+    height: 550px;
+  }
+  
+  .login {
+    position: absolute;
+    padding: 30px;
+    top: 390px;
+    left: 1150px;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #eaf3fa;
+    border-radius: 35px;
+  }
+  
+  .login h1 {
+    color: #1395ed;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+  
+  form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #767676;
+    margin: 30px 0;
+  }
+  
+  .txt_field input {
+    width: 100%;
+    padding: 0 8px;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  .txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    color: #767676;
+    transform: translateY(-50%);
+    font-size: 22px;
+    font-weight: 540;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .txt_field span::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #767676;
+  }
+  
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label {
+    top: -5px;
+    color: #1395ed;
+  }
+  
+  form a {
+    position: relative;
+    margin-left: 263px;
+    margin-bottom: 20px;
+    bottom: 26px;
+    font-size: 18px;
+    font-weight: 540;
+    color: #767676;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  form a:hover {
+    text-decoration: underline;
+    color: #1395ed;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    background: #1395ed;
+    border-radius: 35px;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  p.error {
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(108, 24, 24);
+    background: rgb(246, 138, 138);
+  }
+  
+  /* Footer */
+  
+  .footer_bar {
+    position: absolute;
+    top: 680px;
+    margin: 0 auto;
+    margin-left: 18px;
+    width: 1500px;
+    height: 70px;
+    background: #eaf3fa;
+    border-radius: 35px;
+    text-align: center;
+  }
+  
+  .copyright {
+    font-size: 16px;
+    color: #1c98ed;
+    font-weight: 500;
+  }
+  

@@ -1,0 +1,81 @@
+.bodyContainerswiper{
+    position: absolute;
+    width: 1100px;
+    height: 480px;
+    left: 346px;
+    top: 140px;
+    background: #FFFFFF;
+    border-radius: 35px;
+  }
+
+
+.backbtnbooklist{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 862px;
+    top: 420px;
+    border: none;
+    color: white;
+    background: #5CCBD4;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center; 
+}
+.backbtnbooklist a{
+    text-decoration: none;
+    color: white;
+}
+
+.bookName{
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    padding-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center; 
+}
+
+.bookName a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.No_resultsearchbook {
+    position: absolute;
+    font-size: 42px;
+    color: #3FBAFE;
+    font-weight: 700;
+    left: 33%;    
+    top: 40%;
+  }
+  
+  .No_result_parasearchbook {
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    left: 34.5%;    
+    color: #908d8d;
+    /* color: #1ED7FE; */
+  
+    top: 55%;
+  }
+  
+  .notfound_pngsearchbook {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 36%;  
+    top: 15%;
+  }

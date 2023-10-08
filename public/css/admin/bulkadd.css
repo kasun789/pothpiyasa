@@ -1,0 +1,325 @@
+.bulkadd_container {
+    position: absolute;
+    width: 1100px;
+    height: 562px;
+    left: 360px;
+    top: 130px;
+
+    background: #ffffff;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.bulkadd_container_blur{
+    filter: blur(2px);
+}
+
+.bulkadd_container h3{
+    color: red;
+    font-size: 20px;
+}
+
+.bulkadd_instruction_container {
+    text-align: left;
+    padding: 10px 10px 0px 30px;
+    position: absolute;
+    width: 900px;
+    height: 185px;
+    left: 100px;
+    top: 110px;
+
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.5);
+
+
+}
+
+.bulkadd_instruction_container button {
+    position: absolute;
+    
+    width: 180px;
+    height: 30px;
+    left: 375px;
+    top: 122px;
+    color: white;
+    background: #1395ed;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+.hidden_click_view_button{
+    visibility: hidden;
+}
+
+.bulkadd_instruction_container ol{
+    font-size: 17px;
+}
+
+.bulkadd_select_container {
+    position: absolute;
+    width: 900px;
+    height: 150px;
+    left: 100px;
+    top: 360px;
+
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.5);
+}
+
+.bulkadd_instruction_container span{
+    color: red;
+    font-size: 15px;
+}
+.example_popup{
+    position: absolute;
+    width: 860px;
+    height: 60px;
+    left: 21px;
+    top: 110px;
+
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.5);
+
+    visibility: hidden;
+}
+
+.example_popup_show{
+    visibility: visible;
+}
+
+.example_popup img{
+    position: absolute;
+    top: 7px;
+}
+
+.example_popup_img_student{
+    scale: 0.55;
+    left: -334px;
+}
+.example_popup_img_lecturer{
+    scale: 0.55;
+    left: -320px;
+}
+
+.example_popup_img_nonacademic{
+    scale: 0.58;
+    left: -100px;
+}
+
+.example_popup_img_holiday{
+    scale: 0.8;
+    left: 116px;
+}
+
+.example_popup_img_receivedbooklist{
+    scale: 0.8;
+    left: 70px;
+}
+
+
+
+.bulkadd_select_container input {
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+
+}
+
+.bulkadd_select_container button {
+    /* position: absolute; */
+    width: 130px;
+    height: 30px;
+    /* left: 585px;
+    top: 70px; */
+    color: white;
+    background: #1395ed;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.bulkadd_select_container h3{
+    color: black;
+}
+
+
+/* Popup */
+
+.bulkaddpopup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 32%;
+    left: 46%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+/* .bulkaddpopup_show{
+    visibility: visible;
+} */
+
+.bulkaddpopup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bulkaddpopup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.bulkaddpopup p{
+    font-size: 18px;
+    margin: 10px 0 10px
+}
+
+
+
+.bulkaddpopup button{
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2e9fed;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Error popup */
+
+.bulkadderrorpopup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 32%;
+    left: 46%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+/* .bulkadderrorpopup_show{
+    visibility: visible;
+} */
+
+.bulkadderrorpopup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bulkadderrorpopup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.bulkadderrorpopup p{
+    font-size: 17px;
+    margin: 10px 0 10px
+}
+
+
+
+.bulkadderrorpopup button{
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2e9fed;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.errorBulkAddRegistrationNo{
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    color: red;
+}
+.errorBulkAddFirstName{
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    color: red;
+}
+.errorBulkAddLastName{
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    color: red;
+}
+.errorBulkAddPhoneNo{
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    color: red;
+}
+.errorBulkAddEmail{
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    color: red;
+}
+
+.errorBulkAddNIC{
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    color: red;
+}
+
+.errorBulkAddInvalidFile{
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    color: red;
+}

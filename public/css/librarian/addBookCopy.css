@@ -1,0 +1,340 @@
+.bookCopyContainer1{
+    position: absolute;
+    width: 1200px;
+    height: 773px;
+    left: 306px;
+    top: 80px;
+
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+.bookCopyContainer2{
+    position: absolute;
+    width: 916px;
+    height: 356px;
+    left: 133px;
+    top: 384px;
+    background: #D9D9D9;
+    border-radius: 35px;
+}
+.ISBNbookCopyLable{
+    position: absolute;
+    top: 84px;
+    left: 271px;
+    font-size: 20PX;
+}
+.ISBNbookCopy{
+    position: absolute;
+    top: 69px;
+    left: 462px;
+}
+
+.editionbookCopyLable{
+    position: absolute;
+    top: 118px;
+    left: 270px;
+    font-size: 20PX;
+}
+.editionbookCopy{
+    position: absolute;
+    top: 103px;
+    left: 461px;
+}
+.authobookCopyLable{
+    position: absolute;
+    top: 149px;
+    left: 270px;
+    font-size: 20PX;
+}
+.authorbookCopy{
+    position: absolute;
+    top: 135px;
+    left: 461px;
+}
+.languagebookCopyLable{
+    position: absolute;
+    top: 180px;
+    left: 273px;
+    font-size: 20PX;
+}
+.languagebookCopy{
+    position: absolute;
+    top: 167px;
+    left: 461px;
+}
+.publishedYearbookCopyLable{
+    position: absolute;
+    top: 216px;
+    left: 272px;
+    font-size: 20PX;
+}
+.publishedYearbookCopy{
+    position: absolute;
+    top: 202px;
+    left: 459px;
+}
+.classbookCopyLable{
+    position: absolute;
+    top: 252px;
+    left: 270px;
+    font-size: 20PX;
+}
+.classbookCopy{
+    position: absolute;
+    top: 236px;
+    left: 459px;
+}
+.locationbookCopyLable{
+    position: absolute;
+    top: 287px;
+    left: 271px;
+    font-size: 20PX;
+}
+.locationbookCopy{
+    position: absolute;
+    top: 273px;
+    left: 460px;
+}
+.lendingCategorybookCopyLable{
+    position: absolute;
+    top: 320px;
+    left: 270px;
+    font-size: 20PX;
+}
+.lendingCategorybookCopy{
+    position: absolute;
+    top: 306px;
+    left: 460px;
+}
+
+.bookCopyImage{
+    width: 226px;
+    height: 252px;
+    position: absolute;
+    top: 89px;
+    left: 737px;
+}
+
+.lendingCategorybookCopyLable2{
+    position: absolute;
+    top: 20px;
+    left: 78px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.lendingCategorybookCopy2{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 255px;
+    top: 19px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+    border-radius: 5px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.currencyBookCopyLable{
+    position: absolute;
+    top: 89px;
+    left: 76px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.currencybookCopy{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 254px;
+    top: 88px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+    border-radius: 5px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.priceBookCopyLable{
+    position: absolute;
+    top: 156px;
+    left: 76px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.priceBookCopy{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 253px;
+    top: 154px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+    border-radius: 5px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+.bookCopyOkBtn{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 79px;
+    top: 298px;
+    color: white;
+    background: #49F546;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center
+}
+.bookCopyCancelBtn{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 332px;
+    color: white;
+    top: 300px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.bookCopyCancelBtn a{
+    text-decoration: none;
+    color: white;
+}
+.bookCopyTitle{
+    position: absolute;
+    top: 8px;
+    left: 391px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.errorPriceBookCopyMesg{
+    color: red;
+    position: absolute;
+    top: 176px;
+    left: 250px;
+    font-size: 13px;
+}
+.noOfCopiesLables{
+    position: absolute;
+    top: 214px;
+    left: 78px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.noOfCopies{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 253px;
+    top: 214px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+    border-radius: 5px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+
+.container3CopyBook{
+    position: absolute;
+    width: 340px;
+    height: 320px;
+    left: 540px;
+    top: 20px;
+
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+ /* something went wrong error */
+ .containerWarning{
+    position: absolute;
+    top: -7px;
+    left: 877px;
+    width: 318px;
+    height: 50px;
+    background: #ffdddd;
+    color: black;
+    font-weight: 100;
+    border-left: 6px solid #f44336;
+    text-align: center;
+    animation-name: warning;
+    animation-duration: 0.5s;
+}
+.warnningMsg{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    
+}
+span{
+    color: red;
+    font-weight: 800;
+    
+}
+#exclamationMark{
+    color: red;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+    
+}
+@keyframes warning {
+    0%{
+        display: none;
+        left: 1000px;
+        opacity: 1;
+    }
+    100%{
+        left: 300px;
+        opacity: 1;
+    }
+}
+.errorMesgVendorNameAddBookCopy{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 155px;
+    left: 161px;
+    font-weight: bold;
+}
+.errorMesgDonorNameAddBookCopy{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: 157px;
+    left: 158px;
+    font-weight: bold;
+}

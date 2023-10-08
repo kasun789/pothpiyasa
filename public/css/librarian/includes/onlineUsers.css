@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container_onlineUsers {
+    position: absolute;
+    left: 1037px;
+    top: 752px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    box-shadow: 0 0 20px rgba(46, 159, 237,0.2);
+    transform: translate(-1%,-59%) scale(0.1);
+    transition: transform 0.1s, top 0.4s;
+    
+    
+    /* overflow-y: auto; */
+  
+  }
+
+  .container_onlineUsers_view {
+    position: absolute;
+    left: 1142px;
+    top: 479px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    box-shadow: 0 0 20px rgba(46, 159, 237,0.2);
+    transform: translate(-3%,-50%) scale(1);
+    
+    /* overflow-y: auto; */
+  
+  }
+
+ 
+
+  
+  .container_onlineUsers_view  .onlineUsers {
+    width: 332px;
+    height: 280px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+  
+  }
+  
+  .container_onlineUsers_view .onlineUsers h1 {
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+  
+  }
+  
+  .container_onlineUsers_view  .onlineUsersh1 {
+    background: #1395ed;
+    width: 333px;
+    height: 50px;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+  
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    justify-content: center;
+  }
+  
+.container_onlineUsers_view  .online_user_image{
+    width: 30px;
+    height: 30px;
+    left: 15px;
+    top: 55px;
+    border-radius: 35px;
+  }
+  
+.container_onlineUsers_view .online_user_table{
+    position: absolute;
+    height: 212px;
+    width: 314px;
+    top: 58px;
+    left: 15px;
+    display: flex;
+  
+    overflow-y: auto;
+  
+  }
+  
+  .container_onlineUsers_view   .online_user_table td{
+    padding: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1395ed;
+  
+    /* text-transform: uppercase; */
+  }
+
+  .baground_filter{
+    filter: blur(5px);
+  }

@@ -1,0 +1,656 @@
+
+.bodyContainer01{
+    position: absolute;
+    width: 1200px;
+    height: 610px;
+    left: 306px;
+    top: 100px;
+  
+    background: #FFFFFF;
+    border-radius: 35px;
+  }
+
+  .backbtncatecagory{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 250px;
+    top: 140px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  .addBtn{
+   
+      position: absolute;
+      width: 140px;
+      height: 45px;
+      left: 190px;
+      top: 120px;
+      border: 1px solid #49F546;
+      background: #49F546;
+      border-radius: 35px;
+      
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+
+ 
+  }
+
+  .addbtnPreview{
+    position: absolute;
+      width: 100px;
+      height: 33px;
+      left: 190px;
+      top: 100px;
+      border: 1px solid #49F546;
+      background: #49F546;
+      border-radius: 35px;
+      
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+ 
+  }
+
+  .bodyContainer02{
+    position: absolute;
+    width: 990px;
+    height: 460px;
+    left: 110px;
+    top: 90px;
+    /* z-index: 100; */
+    background: rgba(217, 217, 217, 0.5);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+   
+  }
+
+  .options{
+    position: absolute;
+    width: 990px;
+    height: 40px;
+    top: 50px;
+    background:  #1070b0;
+    left: 110px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* z-index: 100; */
+  
+  
+  }
+  
+  .options ul{
+    position: absolute;
+    list-style: none;
+    float: left;
+    margin: 0;
+    left: 40px;
+    padding: 0;
+    display: flex;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    z-index: 100;
+
+  
+  }
+  
+  .options ul li a{
+    line-height: 40px;
+    color:#9ecbe8 ;
+    padding: 8px 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 100;
+
+  }
+  
+  .options ul li a:hover{
+    color: #fff;
+  }
+  
+  .options ul li a.active{
+  
+    color:#fff ;
+    border-bottom: 3px solid white;
+
+  
+  }
+
+   
+  .options .drop_menu ul li a:hover{
+    color: #fff;
+  }
+  
+  .options .drop_menu ul li a.active{
+  
+    color:#fff ;
+    border-bottom: 3px solid white;
+
+  
+  }
+  
+  .options .drop_menu{
+    position: absolute;
+    top: 40px;
+    left: 290px;
+    width: 280px;
+    z-index: 100;
+    visibility: hidden;
+
+
+    
+  }
+
+  .options .drop_menu ul li a{
+    display: inline-block;
+    line-height: 32.5px;
+    color:#9ecbe8 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #3885bc;
+    width: 80px;
+    
+  }
+  
+  /* .options .drop_menu ul li{
+    width: 280px;
+  } */
+  .options .drop_menu ul{
+    display: inline-block;
+    width: 280px;
+
+
+    /* list-style: none;
+    float: left; */
+
+  }
+
+  
+  .backbtncatecagory1{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 265px;
+    top: 142px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .backbtncatecagory1 a{
+    text-decoration: none;
+    color: white;
+  }
+
+  
+  
+
+
+
+  .bodyContainer03{
+    position: absolute;
+    width: 462px;
+    height: 200px;
+    left: 25px;
+    top: 120px;
+    z-index: 100;
+    background: rgba(217, 217, 217, 0.89);
+    border-radius: 35px;
+    
+   
+  }
+
+  .BookCategory{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    font-size: 20px;
+  }
+
+
+  .BookCategoryNameLabel{
+    position: absolute;
+    width: 150px;
+    height: 27px;
+    left: 28px;
+    top: 110px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height */
+  
+  
+    color: #000000;
+  }
+
+
+  .errorbookCategoryName { 
+    position: absolute;
+    font-size: 12px;
+    width: 203px;
+    left: 120px;
+    top: 129px;
+    padding: 5px;
+    color: red;
+    
+    
+  }
+
+  .BookCategoryName{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 120px;
+    top: 111px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+  }
+  .BookCategoryName:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+  }
+
+  .Descriptionlable{
+    position: absolute;
+    width: 150px;
+    height: 27px;
+    left: 28px;
+    top: 54px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height */
+  
+  
+    color: #000000;
+
+  }
+
+  .Description{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 120px;
+    top: 56px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+  }
+
+  .Description:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+  }
+
+  .addcategorybtn9{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 349px;
+    top: 110px;
+    color: white;
+    background: #2E9FED;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.addcategorybtn91{
+  position: absolute;
+  width: 89px;
+  height: 33px;
+  left: 349px;
+  top: 57px;
+  color: white;
+  background: #49F546;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.addcategorybtn10{
+  position: absolute;
+  width: 89px;
+  height: 33px;
+  left: 150px;
+  top: 150px;
+  color: white;
+  background: #2E9FED;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+.addcategorybtn18{
+  position: absolute;
+  width: 89px;
+  height: 33px;
+  left: 349px;
+  top: 110px;
+  color: white;
+  background: #2E9FED;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.addcategorybtn181{
+  position: absolute;
+  width: 89px;
+  height: 33px;
+  left: 110px;
+  top: 142px;
+  color: white;
+  background: #49F546;
+  border-radius: 35px;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+  
+  .chechbtn{
+    position: relative;
+    width: 89px;
+    height: 33px;
+    left: 70px;
+    top: 150px;
+    color: white;
+    background: #49F546;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    z-index: 100;
+
+  }
+
+/* edit css */
+
+
+.BookCategory1{
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  font-size: 20px;
+}
+
+
+.BookCategoryNameLabel1{
+  position: absolute;
+  width: 150px;
+  height: 27px;
+  left: 77px;
+  top: 92px;  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 27px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+
+.errorbookCategoryName1 { 
+  position: absolute;
+  font-size: 12px;
+  width: 203px;
+  left: 177px;
+  top: 103px;
+  padding: 5px;
+  color: red;
+  
+  
+}
+
+.BookCategoryName1{
+  position: absolute;
+  width: 204px;
+  height: 25px;
+  left: 183px;
+  top: 92px;
+  border: none;
+  outline: none;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+.BookCategoryName1:focus{
+  border:3px solid #2E9FED;
+  outline: 0;
+}
+
+.Descriptionlable1{
+  position: absolute;
+  width: 150px;
+  height: 27px;
+  left: 76px;
+  top: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 27px;
+  /* identical to box height */
+
+
+  color: #000000;
+
+}
+
+.Description1{
+  position: absolute;
+  width: 204px;
+  height: 25px;
+  left: 183px;
+  top: 40px;
+  border: none;
+  outline: none;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+}
+
+.Description1:focus{
+  border:3px solid #2E9FED;
+  outline: 0;
+}
+
+
+
+ /*  */
+  .displaycategories{
+
+    position: absolute;
+    width: 630px;
+    height: 400px;
+    left: 180px;
+    top: 343px;
+   
+    /* background:  rgba(31, 37, 216, 0.125);
+    border-radius: 35px;
+    box-shadow: 0 0 20px rgb(98, 143, 239); */
+
+  }
+  .category_table {
+    position: absolute;
+    left: 338px;
+    top: -343px;
+    padding: 6px;
+    display: block;
+    overflow-x: auto;
+    /* overflow-y: auto; */
+    height: 400px;
+    width: 530px;
+    white-space: nowrap;
+    margin-top: 30px;
+
+  }
+  
+  
+  .category_table th {
+    border-bottom: 1px solid #1395ED;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    background-color: #1395ED;
+    color: white;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .category_table td {
+    font-size: 14px;
+    padding: 10px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .category_table tr:nth-child(even) {
+    background: #D9D9D9;
+  }
+  
+  .category_table tr:hover {
+    background: #7493bc;
+    color: white;
+  }
+  
+  .editbtn {
+    background: #dea01e;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 35px;
+    cursor: pointer;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .editbtn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .deletebtn {
+    background: #f25e5b;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 35px;
+    cursor: pointer;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .deletebtn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+
+  .hr1{
+
+    position: absolute;
+    width: 5px;
+    height: 400px;
+    left: 620px;
+    top: 10px;
+    background: #D9D9D9;
+
+
+  }

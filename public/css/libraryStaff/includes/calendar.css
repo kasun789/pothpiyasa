@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+.container_calendar {
+  position: absolute;
+  width: 312px;
+  height: 330px;
+  left: 1147px;
+  top: 92px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container_calendar_blur{
+  opacity: 20%;
+}
+
+.calendar {
+  width: 332px;
+  height: 330px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+
+}
+
+.month {
+  color: white;
+  width: 332px;
+  height: 40px;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1395ed;
+  padding: 2.0rem 2.0rem;
+  text-align: center;
+}
+
+.month i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.month h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin: -5px auto;
+  margin-top: 18px;
+}
+
+.month p {
+  font-size: 1rem;
+}
+
+.weekdays {
+  width: 332px;
+  height: 2rem;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.weekdays div {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  width: calc(328px / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.days div {
+  font-size: 0.8rem;
+  width: calc(312px / 7);
+  height: 34.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s;
+  border: 1px solid rgb(187, 183, 183);
+  border-radius: 5px;
+
+
+}
+
+.days div:hover:not(.today) {
+  background-color: white;
+  border: 0.2rem solid #2c9eea;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev-date,
+.next-date {
+  opacity: 0.5;
+}
+
+.today {
+  background-color: #2c9eea;
+  color: white;
+  border-radius: 5px;
+}
+
+.calendar_details{
+  position: absolute;
+  top: 290px;
+  left: -88px;
+  display: flex;
+  scale: 0.65;
+  width: 480px;
+}
+
+.calendar_details i,p{
+  display: inline-block;
+}
+
+.calendar_details i{
+  margin-left: 15px;
+}
+
+.calendar_today_holiday i{
+  color:#2c9eea;
+}
+
+.calendar_poya_holiday i{
+  color: yellow;
+}
+
+.calendar_academic_holiday i{
+  color: green;
+}
+
+.calendar_other_holiday i{
+  color: orange;
+}
+
+.calendar_popup {
+  height: 160px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+  position: absolute;
+  width: 340px;
+  left: 224px;
+  top: 160px;
+  color: black;
+  visibility: hidden;
+  transform: translate(-70%,-25%) scale(0.1);
+  transition: transform 0.4s, top 0.4s;
+}
+
+.calendar_popup_popup{
+  top: 160px;
+  left: 155px;
+  visibility: visible;
+  transform: translate(-50%,-50%) scale(0.8); 
+}
+
+.calendar_Label {
+  margin-left: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.calendar_input {
+  position: absolute;
+  width: 204px;
+  height: 25px;
+  left: 115px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+
+  font-family: "Inter";
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 17px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.FormHeader_calendar {
+  height: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 3px solid #2c9eea; */
+  margin-bottom: 20px;
+
+}
+
+.FormHeader_calendar h3 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.FormHeader_calendar i{
+  position: absolute;
+  top: 11px;
+  left: 300px;
+  font-size: 1.4rem;
+  color: red;
+  cursor: pointer;
+}

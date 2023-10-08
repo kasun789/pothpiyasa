@@ -1,0 +1,408 @@
+.bodyContainer01 {
+    position: absolute;
+    width: 1000px;
+    height: 580px;
+    left: 416px;
+    top: 100px;
+
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+
+.bodyContainer01 h1{
+    text-align: center;
+  }
+  
+  .bodyContainer01 h2{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+  }
+
+.inventory_instruction_container {
+    text-align: left;
+    padding: 10px 10px 0px 30px;
+    position: absolute;
+    width: 880px;
+    height: 125px;
+    left: 42px;
+    top: 112px;
+
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.5);
+
+
+}
+
+.inventory_instruction_container ol li {
+    font-size: 17.5px;
+    margin: 4px;
+}
+
+.inventory_instruction_container span{
+    color: red;
+}
+
+.bodyContainer2 {
+    position: absolute;
+    width: 920px;
+    height: 185px;
+    left: 42px;
+    top: 276px;
+    background: #ffffff;
+    border-radius: 35px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.5);
+
+}
+
+.inventory_form{
+    position: absolute;
+    top: 35px;
+    left: 140px;
+}
+
+.bodyContainer2new {
+    position: absolute;
+    width: 460px;
+    height: 280px;
+    left: 482px;
+    top: 190px;
+    background: #ffffff;
+    border-radius: 35px;
+}
+
+.inventoryform1 {
+    position: absolute;
+    width: 460px;
+    height: 280px;
+    left: 482px;
+    top: 140px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 35px;
+}
+
+.inventoryform {
+    position: absolute;
+    height: 230px;
+    left: 238px;
+    top: 280px;
+    width: 538px;
+    background: #ffffff;
+    border-radius: 35px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.5);
+}
+
+.inventory_add_data_form{
+    position: absolute;
+    left: -192px;
+}
+
+.conditionLabel {
+    position: absolute;
+    width: 120px;
+    height: 27px;
+    left: 275px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.condition {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 445px;
+    top: 40px;
+    outline: none;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.5);
+    border-radius: 5px;
+
+
+
+}
+
+.condition:focus {
+    border: 3px solid #2E9FED;
+    outline: 0;
+}
+
+.commentLabel {
+    position: absolute;
+    width: 120px;
+    height: 27px;
+    left: 275px;
+    top: 90px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.comment {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 445px;
+    top: 90px;
+    outline: none;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.5);
+    border-radius: 5px;
+
+
+}
+
+.comment:focus {
+    border: 3px solid #2E9FED;
+    outline: 0;
+}
+
+
+.titalLabel {
+    position: absolute;
+    width: 120px;
+    height: 27px;
+    left: 50px;
+    top: 70px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.tital {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 212px;
+    top: 70px;
+    border: none;
+    background: white;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+    border-radius: 5px;
+}
+
+.tital:focus {
+    border: 3px solid #2E9FED;
+    outline: 0;
+}
+
+
+.errorTitleMesg {
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    left: 196px;
+    top: 85px;
+    padding: 5px;
+    color: red;
+
+}
+
+
+.isbnLabel {
+    position: absolute;
+    width: 49px;
+    height: 27px;
+    left: 50px;
+    top: 240px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.isbn {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 120px;
+    top: 240px;
+    border: 1px solid #2E9FED;
+    outline: none;
+    background: #FFFFFF;
+
+}
+
+.isbn:focus {
+    border: 3px solid #2E9FED;
+    outline: 0;
+}
+
+.inventory_backbtn {
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 790px;
+    top: 255px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.inventory_backbtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.cancelbtn_inventory{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 505px;
+    top: 160px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    cursor: pointer;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.cancelbtn_inventory a {
+    text-decoration: none;
+    color: white;
+}
+
+.inventory_addbookbtn {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 480px;
+    top: 68px;
+    color: white;
+    background: #49F546;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.addbookbtn1 {
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 325px;
+    top: 160px;
+    color: white;
+    background: #49F546;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 180px;
+    left: 440px;
+}
+
+#reseticon {}
+
+.reset {
+    position: absolute;
+    width: 160px;
+    height: 38px;
+    left: 415px;
+    top: 300px;
+    color: white;
+    background: #2E9FED;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+    z-index: 1;
+
+
+}
+.backbtnAddBook{
+    position: absolute;
+width: 89px;
+height: 33px;
+left: 505px;
+top: 160px;
+border: 1px solid #5CCBD4;
+background: #5CCBD4;
+border-radius: 35px;
+cursor: pointer;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+}
+.backbtnAddBook a{
+    text-decoration: none;
+    color: white;
+  }
+
+.blur {
+    filter: blur(5px);
+}
+
+.baground_filter{
+    filter: blur(5px);
+  }

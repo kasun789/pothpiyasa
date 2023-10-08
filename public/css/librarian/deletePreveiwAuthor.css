@@ -1,0 +1,351 @@
+
+.bodyContainer01{
+    position: absolute;
+    width: 1200px;
+    height: 580px;
+    left: 306px;
+    top: 104px;
+  
+    background: #FFFFFF;
+    border-radius: 35px;
+  }
+  
+  .backbtn{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 760px;
+    top: 282px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .backbtn a{
+    text-decoration: none;
+    color: white;
+  }
+  .bodyContainer02{
+    position: absolute;
+    width: 1100px;
+    height: 500px;
+    left: 52px;
+    top: 40px;
+  
+    background: #D9D9D9;
+    border-radius: 35px;
+  }
+  
+  .fnameLabel{
+    position: absolute;
+    width: 75px;
+    height: 27px;
+    left: 70px;
+    top: 50px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+  
+  
+    color: #000000;
+  }
+  .fname{
+    position: absolute;
+    width: 203px;
+    height: 25px;
+    left: 180px;
+    top: 50px;
+    outline: none;
+    border: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+  }
+  .fname:focus{
+   border:3px solid #2E9FED;
+   outline: 0;
+  }
+
+  .errorName { 
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    left: 176px;
+    top: 63px;
+    padding: 5px;
+    color: red;
+    
+  }
+  .checkfnamebtn{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 425px;
+    top: 45px;
+    border: 1px solid #2E9FED;
+    background: #2E9FED;
+    border-radius: 10px;
+  }
+  .checkfnamebtn a{
+    text-decoration: none;
+    color: white;
+  
+  }
+  .sexLabel{
+    position: absolute;
+    width: 49px;
+    height: 27px;
+    left: -120px;
+    top: 35px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+  
+  
+    color: #000000;
+  }
+  
+  
+  .emailLabel{
+    position: absolute;
+    width: 49px;
+    height: 27px;
+    left: -110px;
+    top: 83px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+  
+  
+    color: #000000;
+  }
+  .email{
+    position: absolute;
+    width: 203px;
+    height: 25px;
+    left: 5px;
+    top: 86px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+  
+  }
+  .email:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+  }
+  
+
+  .errorEmail { 
+    position: absolute;
+    font-size: 12px;
+    width: 203px;
+    left: -32px;
+    top: 100px;
+    padding: 5px;
+    color: red;
+    
+    
+  }
+
+  .sex{
+    position: absolute;
+    width: 204px;
+    height: 25px;
+    left: 5px;
+    top: 38px;
+    border: none;
+    outline: none;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;  
+  }
+  .sex:focus{
+    border:3px solid #2E9FED;
+    outline: 0;
+  }
+  
+  
+  
+  .authorImageLabel{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 420px;
+    top: -120px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    /* identical to box height */
+  
+  
+    color: #000000;   
+  }
+  .imagefile{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 560px;
+    top: -115px;
+    border: 1px solid white;
+   
+  }
+
+  
+  .errorImage { 
+    position: absolute;
+    font-size: 12px;
+    width: 203px;
+    left: 528px;
+    top: -100px;
+    padding: 5px;
+    color: red;
+    
+    
+  }
+  
+  .container3{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: -100px;
+    top: 50px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+  }
+  
+  
+  .addauthorbtn{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 50px;
+    top: 330px;
+    color: white;
+    background: #49F546;
+    border-radius: 35px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  
+  .bodyContainersuccess{
+    position: absolute;
+    width: 628px;
+    height: 302px;
+    left: 606px;
+    top: 204px;
+  
+    background: #FFFFFF;
+    border-radius: 35px;
+  }
+  
+  /* .backbtnsuccess {
+  
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    
+    background: #2E9FED;
+    border-radius: 35px;
+  
+  
+  } */
+  
+  .backbtnsuccess{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 480px;
+    top: 250px;
+    border: 1px solid #2E9FED;
+    background: #2E9FED;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .backbtnsuccess a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .successlable{
+  
+    position: absolute;
+    width: 377px;
+    height: 69px;
+    top: 100px;
+    left: 120px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    
+    color: #000000;
+  
+  }
+  
+  .successicon {
+  
+    position: absolute;
+    width: 39px;
+    height: 40px;
+    top: 100px;
+    left: 150px;
+    
+    color: #37E31B;
+    
+  
+  
+  
+  
+  }
+  
+  .imagepreview {
+  
+  
+    position: absolute;
+    width: 300px;
+    height: 220px;
+     left: 50px;
+    top: 15px;
+     
+  
+    
+  }
+  
+  
+  

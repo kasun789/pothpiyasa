@@ -1,0 +1,535 @@
+
+.popup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 80px;
+    left: 180px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ; 
+    
+}
+
+.open_popup{
+    visibility: visible;
+    top: 32%;
+    scale: 1;
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.popup p{
+    font-size: 17px;
+    margin: 10px 0 10px
+}
+
+
+
+.popup button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.delete1Popup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 80px;
+    left: 330px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+}
+
+.deletePopup button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.popupEdit{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 280px;
+    left: 680px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ; 
+    
+}
+.popupEdit img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popupEdit h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.popupEdit p{
+    font-size: 17px;
+    margin: 10px 0 10px
+}
+
+.delete2Popup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 100px;
+    left: 330px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s ; 
+    
+}
+
+.open_popup{
+    visibility: visible;
+    top: 32%;
+    scale: 1;
+}
+
+.delete2Popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.delete2Popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.delete2Popup p{
+    font-size: 17px;
+    margin: 10px 0 10px
+}
+
+
+
+.delete2Popup button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2)
+
+}
+.popupEdit button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.locatePopup{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: -91px;
+  left: 330px;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s; 
+}
+
+.locatePopup img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.locatePopup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px
+}
+
+.locatePopup p{
+  font-size: 17px;
+  margin: 10px 0 10px
+}
+
+.locateButton{
+  width: 25%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #2E9FED;;
+  color: white;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.locatePopupbookRequest{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 80px;
+    left: 330px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.locatePopupbookRequest img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.locatePopupbookRequest h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+.locatePopupRemove{
+    display: none;
+}
+.locateButtonbookRequest{
+    width: 25%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2E9FED;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.locatecancelButton{
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px 0;
+    background: #5CCBD4;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.locatePopupDisplay{
+  position: absolute;
+  width: 380px;
+  background: white;
+  border-radius: 10px;
+  top: 260px;
+  left: 650px;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  /* scale: 0.1; */
+  visibility: visible;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.locatePopupDisplay img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.locatePopupDisplay h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 30px 0 10px
+}
+
+/* .cancelButton{
+
+} */
+
+/* .deleteButton{
+
+} */
+
+
+/* renew successfull msg popup */
+.renew_sucess_locatePopup_view{
+    position: absolute;
+    width: 330px;
+    background: white;
+    border-radius: 10px;
+    top: 250px;
+    left: 670px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: visible;
+    box-shadow: 0 0 20px rgba(111,214,73,0.2);
+    backdrop-filter: blur(5px);
+  }
+  .baground_filter{
+    filter: blur(5px);
+  }
+  .renew_sucess_locatePopup{
+    position: absolute;
+    width: 330px;
+    background: white;
+    border-radius: 10px;
+    top: 250px;
+    left: 670px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    box-shadow: 0 0 20px rgba(111,214,73,0.2);
+    backdrop-filter: blur(5px);
+    
+  }
+  
+  .renew_sucess_locatePopup_view img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .renew_sucess_locatePopup_view h2{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 10px 0 10px
+  }
+  
+  .renew_sucess_locatePopup_view p{
+    font-size: 17px;
+    margin: 10px 0 10px
+  }
+  
+  
+  
+  .renew_sucess_locatePopup_view button{
+    width: 25%;
+      margin-top: 20px;
+      padding: 10px 0;
+      background: #2E9FED;
+      color: white;
+      border: 0;
+      outline: none;
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  
+  }
+
+
+  
+/* popup css */
+.renewPopup{
+    position: absolute;
+    width: 380px;
+    background: white;
+    border-radius: 10px;
+    top: 250px;
+    left: 670px;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    box-shadow: 0 0 20px rgba(247, 0, 0, 0.15);
+  }
+  
+  .renewPopup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .renewPopup h2{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 10px 0 10px
+  }
+  
+  .renewPopup p{
+    font-size: 17px;
+    margin: 10px 0 10px
+  }
+  
+  
+  
+  .renewPopup button{
+    width: 25%;
+      margin-top: 20px;
+      padding: 10px 0;
+      background: rgb(245, 80, 80);
+      color: white;
+      border: 0;
+      outline: none;
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  /* calendar popup css */
+  .renewDatePopup{
+    position: absolute;
+    width: 380px;
+    height: 180px;
+    background: white;
+    border-radius: 10px;
+    top: 250px;
+    left: 670px;
+    text-align: center;
+    padding: 0 50px 50px;
+    color: #333;
+    /* scale: 0.1; */
+    visibility: hidden;
+    box-shadow: 0 0 20px rgba(46, 159, 237,0.2);
+  }
+  
+  .renewDatePopup img{
+    width: 100px;
+    margin-top: -50px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    /* border-radius: 50%; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .renewDatePopup h2{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 15px 0 10px
+  }
+  
+  .renewDatePopup p{
+    font-size: 17px;
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    font-weight: bold;
+  
+  }
+  
+  .renewDatePopup input{
+    width: 150px;
+    height: 27px;
+    position: absolute;
+    top: 95px;
+    left: 270px;
+    border: 2px solid #2E9FED;
+    
+  }
+  
+  .renewDatePopup input:focus{
+    border: 2px solid #2E9FED;
+    
+  }
+  
+  
+  .renewDatePopup button{
+    width: 25%;
+      margin-top: 120px;
+      margin-left: 0px;
+      padding: 10px 0;
+      background: #2E9FED;
+      color: white;
+      border: 0;
+      outline: none;
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  
+  }
+
+  .baground_filter{
+    filter: blur(2px);
+  }
+
+

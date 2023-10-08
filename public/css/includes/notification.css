@@ -1,0 +1,143 @@
+.notificationContainer{
+    width: 272px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    visibility: hidden;
+    position: absolute;
+    top: 58px;
+    left: 1250px;
+    z-index: 100;
+    border-radius: 10px;
+
+  transform: translate(-1%,-59%) scale(0.1);
+  transition: transform 0.4s, top 0.4s;
+}
+.notificationMainDiv{
+    background-color: #1395ed;
+    height: 50px;
+    width: 272px;
+    padding-top: 1px;
+    position: static;
+   
+}
+.notificationContainerView{
+  width: 272px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  position: absolute;
+  top: 58px;
+  left: 1250px;
+  z-index: 1000;
+  border-radius: 10px;
+
+  visibility: visible;
+  transform: translate(-44%,0%) scale(1);
+}
+
+.notificationMainTopic{
+    padding-left: 5px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1px;
+    position: static;
+    text-align: center;
+    top: 6px;
+    
+}
+.notificationTopic{
+    position: absolute;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    width: 169px;
+    
+}
+ul {
+    list-style: none;
+  }
+
+  .notificationLine ul li::before {
+    content: "\2022";
+    color: #2273f5; /* Change the color to red */
+    position: absolute;
+    font-size: 24px;
+    left: 10px;
+    top: 25px;
+
+  }
+  .notificationLine{
+    position: relative;
+    height: 80px;
+    background: #cae2f1;
+    border-bottom: #2273f5;
+  }
+  .notificationLine .notificationDate{
+    color: #afafaf;
+    font-size: 10px;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+  }
+  .notificationLine #notificationIcons{
+    color: #2273f5;
+    position: absolute;
+    top: 25px;
+    left: 214px;
+    font-size: 30px;
+  }
+.notificationPoint{
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: fixed;
+  left: 1395px;
+  z-index: 1000;
+  top: 12px;
+}
+.notificationCount{
+  color: white;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  font-size: 10px;
+  z-index: 1000;
+}
+.notificationPointView{
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: 1395px;
+  visibility: hidden;
+}
+
+#emptyNotification{
+  font-size: 54px;
+  position: absolute;
+  top: 125px;
+  left: 118px;
+  color: #1395ed;
+  opacity: 0.5;
+
+}
+
+.NoNotification{
+  position: absolute;
+  font-size: 18px;
+  top: 191px;
+  left: 83px;
+  color: #1395ed;
+  opacity: 0.5;
+}

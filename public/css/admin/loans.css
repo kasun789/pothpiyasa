@@ -1,0 +1,146 @@
+.container_view_loans {
+  position: absolute;
+  width: 1100px;
+  height: 550px;
+  left: 351px;
+  top: 108px;
+
+  background: #ffffff;
+  border-radius: 35px;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  .container_view_loans h1{
+    text-align: center;
+  }
+  
+  .container_view_loans h2{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .loans_instruction_container {
+    text-align: left;
+    padding: 10px 10px 0px 30px;
+    position: absolute;
+    width: 880px;
+    height: 85px;
+    left: 91px;
+    top: 110px;
+
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.5);
+
+
+}
+
+.loans_instruction_container ol li {
+    font-size: 17.5px;
+    margin: 4px;
+}
+
+.loans_instruction_container span{
+    color: red;
+}
+  
+  .loans_table {
+    position: absolute;
+    top: 37%;
+    left: 11.6%;
+    padding: 10px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 30px;
+  }
+  
+  
+  .loans_table th {
+    border-bottom: 1px solid #1395ed;
+    padding: 12px;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    background-color: #1395ed;
+    color: white;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+
+  .loans_table td {
+    font-size: 15px;
+    padding: 12px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .loans_table td a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .loans_table tr:nth-child(even) {
+    background: #D9D9D9;
+  }
+  
+  .loans_table tr:hover {
+    background: #7493bc;
+    color: white;
+  }
+  
+  
+
+
+  .backbtnloans{
+    position: absolute;
+    width: 89px;
+    left: 1240px;
+    top: 602px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.backbtnloans a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.loans_No_result {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 52px;
+  color: #3FBAFE;
+  font-weight: 700;
+  left: 45%;
+  top: 58%;
+}
+
+
+.loans_notfound_png {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 31%;
+  top: 50%;
+}

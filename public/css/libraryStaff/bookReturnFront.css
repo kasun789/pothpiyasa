@@ -1,0 +1,81 @@
+
+.bodyContainer01{
+    position: absolute;
+    width: 1200px;
+    height: 615px;
+    left: 309px;
+    top: 99px;
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+.bodyContainer2{
+    position: absolute;
+    width: 950px;
+    height: 515px;
+    left: 120px;
+    top: 55px;
+
+    
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 35px;
+}
+.returnBook{
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    width: 200px;
+    height: 60px;
+    /* border-color: #2e9fed; */
+    border: none;
+    outline: none;
+    background: #2e9fed;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 35px;
+    border: 3px solid white;
+  box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+
+}
+
+
+.returnBook a{
+    text-decoration: none;
+    color: white;
+}
+.renewBook{
+    position: absolute;
+    top: 280px;
+    left: 600px;
+    width: 200px;
+    height: 60px;
+    /* border-color: #2e9fed; */
+    outline: none;
+    border: none;
+    background: #2e9fed;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 35px;
+    border: 3px solid white;
+  box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+}
+.renewBook a{
+    text-decoration: none;
+    color: white;
+}
+.image{
+    position: absolute;
+    width: 490px;
+    height: 375px;
+    top: 72px;
+    left: 85px;
+    
+}

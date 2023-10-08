@@ -1,0 +1,174 @@
+.container_view_reservations {
+    position: absolute;
+    width: 1100px;
+    height: 550px;
+    left: 351px;
+    top: 108px;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+  
+    background: #ffffff;
+    border-radius: 35px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color:black; */
+    background-size: cover;
+    /* z-index: 100; */
+    /* opacity: 0.4;  */
+
+ 
+    
+  }
+
+
+.backbtnreservation{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 1252px;
+    top: 592px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    z-index: 100;
+}
+.backbtnreservation a{
+    text-decoration: none;
+    color: white;
+} 
+
+
+
+
+  .reservations_table{
+   
+    position: absolute;
+    left: 115px;
+    top: 0px;
+    padding: 6px;
+    display: block;
+    overflow-x: auto;
+    /* overflow-y: auto; */
+    height: 450px;
+    width: 898px;
+    white-space: nowrap;
+    margin-top: 30px;
+   
+  }
+
+  .reservations_table th{
+    border-bottom: 1px solid #1395ED;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    background-color: #1395ED;
+    color: white;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+
+
+  .reservations_table td {
+    font-size: 14px;
+    padding: 10px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+
+  .reservations_table td a{
+    text-decoration: none;
+    color: white;
+  }
+  
+   .reservations_table tr:nth-child(even) {
+    background: #D9D9D9;
+  }
+  
+  .reservations_table tbody tr:hover {
+    background: #7493bc;
+    color: white;
+  } 
+  
+  .remove_reservations {
+    background: #f25e5b;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 35px;
+    cursor: pointer;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .remove_reservations a {
+    text-decoration: none;
+    color: white;
+  }
+  .remove_reservations:hover{
+    transform: scale(1.2);
+    z-index: 2;
+  }
+  
+  .bookImg{
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    vertical-align: middle;
+    
+    
+  }
+
+ 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.reservation_No_result {
+  position: absolute;
+  font-size: 54px;
+  color: #3FBAFE;
+  font-weight: 700;
+  left: 35%;
+    top: 37%;
+}
+
+
+.reservation_notfound_png {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 21%;
+  top: 29%;
+}
+
+

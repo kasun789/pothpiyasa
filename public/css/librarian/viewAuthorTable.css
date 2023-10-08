@@ -1,0 +1,236 @@
+.author_filter_type{
+  position: absolute;
+  width: 200px;
+  height: 35px;
+  left: 588px;
+  top: 85px;
+  border: none;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px 0 0 0;
+  box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+}
+.author_filter_type:focus{
+  border: 3px solid #2e9fed;
+  outline: 0;
+}
+
+.author_filter_typo_input{
+  position: absolute;
+  width: 200px;
+  height: 35px;
+  left: 798px;
+  top: 85px;
+  padding-left: 2px;
+  border: none;
+  outline: none;
+  background: white;
+  border-radius: 0 0 20px 0;
+  box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+
+}
+.author_filter_typo_input:focus{
+  border:3px solid #2E9FED;
+  outline: 0;
+}
+
+
+.filter_type_author{
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  left: 1082px;
+  top: 85px;
+  color: white;
+  background: #1395ed;
+  border-radius: 35px;
+  cursor: pointer;
+  border: none;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+.container_view_author {
+    position: absolute;
+    width: 1210px;
+    height: 540px;
+    left: 306px;
+    top: 164px;
+  
+    background: #ffffff;
+    border-radius: 35px;
+  }
+  .author_table {
+    position: absolute;
+    top: 1.2%;
+    left: 12%;
+    padding: 6px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 30px;
+  }
+  
+  .author_table th {
+    border-bottom: 1px solid #1395ed;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    background-color: #1395ed;
+    color: white;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .author_table td {
+    font-size: 15px;
+    padding: 10px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .aname {
+    text-decoration: none;
+    color: black;
+  }
+  .aname:hover {
+    background: #7493bc;
+    color: white;
+  }
+
+  
+  .author_table tr:nth-child(even) {
+    background: #D9D9D9;
+  }
+  
+  .author_table tr:hover {
+    background: #7493bc;
+    color: white;
+  }
+  
+  .editbtn {
+    background: #dea01e;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 35px;
+    cursor: pointer;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .editbtn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .deletebtn {
+    background: #f25e5b;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 35px;
+    cursor: pointer;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .deletebtn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .backBookViewbtn {
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 1000px;
+    top: 565px;
+    border: 1px solid #5ccbd4;
+    background: #5ccbd4;
+    border-radius: 35px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .backBookViewbtn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* pagination styles  */
+  
+  .pagination {
+    position: fixed;
+    top: 610px;
+    left: 320px;
+  }
+  
+  .pagingheader {
+    border: 1px solid lightgray;
+    padding: 5px;
+    background: none;
+  }
+  
+  .paginationTr:hover {
+    background: none;
+  }
+  
+
+  .backbtn{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 1350px;
+    top: 650px;
+    border: 1px solid #5CCBD4;
+    background: #5CCBD4;
+    border-radius: 35px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.backbtn a{
+    text-decoration: none;
+    color: white;
+}

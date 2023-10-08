@@ -1,0 +1,334 @@
+.dashContainer1{
+    position: absolute;
+    width: 760px;
+    height: 330px;
+    left: 330px;
+    top: 92px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+    
+
+}
+
+.dashContainer2{
+    position: absolute;
+    width: 450px;
+    height: 290px;
+    left: 330px;
+    top: 440px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+
+}
+.dashContainer4{
+    position: absolute;
+    width: 645px;
+    height: 290px;
+    left: 825px;
+    top: 440px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+
+}
+.dashContainer3{
+    position: absolute;
+    width: 350px;
+    height: 290px;
+    left: 1152px;
+    top: 450px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    /* visibility: hidden; */
+    transition-duration: 4ms;
+    display: none;
+    box-shadow: 0 0.3rem 0.5rem rgba(68, 68, 68, 0.3);
+    
+    
+}
+
+.image01{
+    position: absolute;
+    left: 70px;
+    top: 25px;
+}
+
+.image02{
+    position: absolute;
+    left: 70px;
+    top: 65px;
+    height: 200px; 
+}
+.onlineUsersTitle01{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.onlineUsersTitle02{
+    color: black;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    font-size: 11px;
+    
+}
+.chart{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.chart1{
+    width: 620px;
+    height: 220px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+#chartLineView{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: -15px; 
+}
+.label1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 110px;
+    left: 290px;
+}
+.label2{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 140px;
+    left: 290px;
+}
+.label3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    left: 290px;
+}
+.label4{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 290px;
+}
+.color4{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    
+    
+}
+.label5{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 130px;
+    left: 550px;
+}
+.color5{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 140px;
+    left: 510px;
+    background: #00B46E;
+    
+}
+.label6{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    left: 550px;
+}
+.color6{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 170px;
+    left: 510px;
+    background-color: #9780FF;
+    
+}
+.color1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 110px;
+    left: 250px;
+    
+}
+.color2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 140px;
+    left: 250px;
+    
+}
+.color3{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 170px;
+    left: 250px;
+}
+.con1{
+    background: #1395ed;
+    width: 760px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.con1 h1{
+    font-size : 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+
+}
+.con2{
+    background: #1395ed;
+    width: 451px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.con2 h1{
+    font-size : 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.con3{
+    background: #1395ed;
+    width: 645px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.con3 h1{
+    font-size : 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.overolInfo{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    max-width: 800px;
+    width: 300px;
+    height: 200px;
+}
+.overolInfo tr{
+    max-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.overolInfo td{
+    padding-left: 20px;
+    font-size: 17.2px;
+
+
+}
+.totalBooks{
+    background: #3A6190;
+    color: white;
+    width: 200px;
+    
+}
+.totalBookValues{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+}
+.totalPatronsValue{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.totalBorrowValue{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+}
+.totalDamegedValue{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+}
+.totalPatron{
+    background: #3A6190;
+    color: white;
+    
+}
+.borrowedBooks{
+    background: #3A6190;
+    color: white; 
+    
+}
+
+.damegedBooks{
+    background: #3A6190;
+    color: white;  
+}
+
+.img01{
+    width: 420px;
+    height: 260px;
+    margin-left: 330px;
+    margin-top: 56px;
+}
+
+/* setup the online user  */
+.onlineUserButton{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    position: fixed;
+    top: 629px;
+    left: 1399px;
+    cursor: pointer;
+}
+.onlineUserButton img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+ 

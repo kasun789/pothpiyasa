@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.container_onlineUsers {
+  position: absolute;
+  left: 1137px;
+  top: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onlineUsers {
+  width: 332px;
+  height: 280px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0.3rem 0.5rem rgba(60, 60, 60, 0.5);
+  overflow-y: auto;
+}
+
+.onlineUsers h1 {
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+
+}
+
+.onlineUsersh1 {
+  background: #1395ed;
+  width: 332px;
+  height: 50px;
+  position: absolute;
+  top: -14px;
+  left: 0px;
+  color: white;
+  text-align: center;
+  padding-top: 13px;
+
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  justify-content: center;
+}
+
+.onlineUsers img {
+  position: absolute;
+  height: 210px;
+  left: 15px;
+  top: 55px;
+}
