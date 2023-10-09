@@ -1,5 +1,6 @@
 <?php
 
+
 class Librarian extends Controller
 {
     public function index()
@@ -8,6 +9,6 @@ class Librarian extends Controller
         {
             $this->redirect('Login');
         }
-        $this->view('librarian/home');
+       $this->view('librarian/home');
     }
 }
